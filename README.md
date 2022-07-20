@@ -1,5 +1,5 @@
-#Thermal-Surveillance 
-
+# Thermal-Surveillance 
+ 
 Temperature of a given person will be identified using face detection.
 
 We use FLIR C5 camera as a input source, feel free to you any type of thermal camera.
