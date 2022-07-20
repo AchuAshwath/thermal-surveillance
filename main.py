@@ -62,7 +62,7 @@ def process_frame(frame):
 
 
 def whole_frame():
-    cap = cv2.VideoCapture('crowd.mp4')
+    cap = cv2.VideoCapture(1)
 
     while(cap.isOpened()):
         ret, frame = cap.read()
@@ -123,7 +123,7 @@ def pixel_to_temperature(pixel):
 
 def only_face():
     global count,flag
-    cap = cv2.VideoCapture('crowd2.mp4')
+    cap = cv2.VideoCapture(1)
     face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
     face_detector = face_detection.FaceDetector()
     #frame_width = int(cap.get(3))
