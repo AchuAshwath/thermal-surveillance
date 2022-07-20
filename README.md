@@ -1,4 +1,4 @@
-Thermal-Surveillance 
+#Thermal-Surveillance 
 
 Temperature of a given person will be identified using face detection.
 
