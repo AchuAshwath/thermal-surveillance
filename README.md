@@ -1,5 +1,10 @@
-# Face Detection OpenCV
-*** No more being maintained ***
+Thermal-Surveillance 
+
+Temperature of a given person will be identified using face detection.
+
+We use FLIR C5 camera as a input source, feel free to you any type of thermal camera.
+
+Snap shots of persons with high temperature is saved automatically.
 
 Face detection using opencv's “hidden” deep learning-based face detector.
 
@@ -7,8 +12,7 @@ This module uses the dnn module of opencv. Primary contributor for rhe dnn modul
 
 Steps to run:
 
-    install opencv (version >= 3.3) (pip3 install opencv-python)
-    install numpy (pip3 install numpy)
+    pip install requirements.txt
     run main.py
 
 
