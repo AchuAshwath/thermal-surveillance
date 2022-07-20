@@ -12,6 +12,7 @@ This module uses the dnn module of opencv. Primary contributor for rhe dnn modul
 
 Steps to run:
 
+    clone this repository
     pip install requirements.txt
     run main.py
 
